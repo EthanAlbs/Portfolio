@@ -1,0 +1,58 @@
+/* color palette
+light: #bfcfbb
+med: #8ea58c
+dark: #344c3d
+ */
+body {
+    background-color: #8ea58c;
+    color: #344c3d;
+}
+
+header {
+    text-align: center;
+}
+
+#tabs {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 2px);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    border: solid 1px #344c3d;
+    border-bottom: none;
+}
+
+.tab {
+    width: 20%;
+    margin: 0;
+    text-align: center;
+    border-right: solid 1px #344c3d;
+    cursor: pointer;
+    background-color: #bfcfbb;
+}
+
+#work {
+    border-right: none;
+}
+
+#contentBody {
+    border: solid 1px #344c3d;
+    border-top: none;
+    min-height: 350px;
+    width: calc(100% - 2px);
+    padding-top: 1px;
+    background-color: #bfcfbb;
+}
+
+.inactive {
+    border-bottom: solid 1px #344c3d;
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    width: 95%
+}

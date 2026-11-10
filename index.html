@@ -5,10 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan Albsmeier</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async defer></script>
 </head>
 
 <body>
-    <h1> My life is like a video game trying hard to beat the stage</h1>
+    <header>
+        <h1 id="nameplate"> Ethan Albsmeier</h1>
+    </header>
+    <div id="main">
+        <div id="tabs">
+            <div class="tab inactive" id="summary">summary</div>
+            <div class="tab active" id="education">education</div>
+            <div class="tab inactive" id="skills">skills</div>
+            <div class="tab inactive" id="projects">projects</div>
+            <div class="tab inactive" id="work">work</div>
+        </div>
+        <div id="contentBody">
+            <div class="content hidden" id="summaryInfo">
+                <p>summary</p>
+            </div>
+            <div class="content" id="educationInfo">
+                <p>education</p>
+            </div>
+            <div class="content hidden" id="skillsInfo">
+                <p>skills</p>
+            </div>
+            <div class="content hidden" id="projectsInfo">
+                <p>projekt</p>
+            </div>
+            <div class="content hidden" id="workInfo">
+                <p>work</p>
+            </div>
+        </div>
+        <footer>
+            <p>Nothing to see here</p>
+        </footer>
+
 </body>
 
 </html>
